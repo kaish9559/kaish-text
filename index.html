@@ -1,13 +1,124 @@
+<!DOCTYPE html>
 <html>
- <head>
-     <title> abdul kaish</title>
-    h1>p{
-color:blue;
-    }
-    </head>
+<head>
+<meta charset="utf-8">
+<title>positioning</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align:  center;
+}
+@media (min-width: 550px) and (max-width: 800px) {
+  #p1 {
+    width: 260px;
+  }
+  #p2 {
+    width: 260px;
+  
+  }
+  #p3 {
+    width: 550px;
+  }
+  
+  
+}
+@media (min-width: 800px)  {
+  #p1 {
+    width: 258px;
+  }
+  #p2 {
+    width: 258px;
+  
+  }
+  #p3 {
+    width: 258px;
+  }
+  
+  
+}
+@media (max-width: 550px) {
+  #p1 {
+    width: 400px;
+  }
+  #p2 {
+    width: 400px;
+  
+  }
+  #p3 {
+    width: 400px;
+  }
+  
+  
+}
+body {
+  
+  background-color: none;
+  
+  top: 60px;
+}
+p {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  float: left;
+  margin-right:20px;
+}
+.chicken {
+  color: black;
+  background-color: pink;
+}
+.beef {
+  color: black;
+  background-color: red;
+}
+.sushi {
+  color: black;
+  background-color: yellow;
+}
+#p1 {
+  background-color: gray;
+  float:left;
+  
+  
+ 
+}
+#p2 {
+  background-color: gray;
+  
+  
+}
+#p3 {
+  background-color: gray;
 
+
+ 
+
+}
+/*#p4 {
+  background-color: yellow;
+  float:right;*/
+}
+
+</style>
+</head>
 <body>
-<h1><p>Hello,World</p></h1>
-<h2>this is my first page</h2>
-    </body>
+<h1>Our Menu</h1>
+
+<div >
+  <p id="p1"><span class="chicken">chicken</span>
+
+  this paragraph is for chicken</p>
+  <p id="p2"><span class="beef">beef</span> this paragraph is for beef</p>
+  <p id="p3"><span class="sushi"> sushi</span> this paragraph is for sushi</p>
+ 
+</div>
+
+</body>
 </html>
